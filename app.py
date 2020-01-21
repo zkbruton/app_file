@@ -12,9 +12,9 @@ import dash_table as dt
 import time
 from dash.dependencies import Input, Output
 
-df_spt=pd.read_csv('https://ge.ent.box.com/file/602475945551',index_col=0)
+#df_spt=pd.read_csv('https://ge.ent.box.com/file/602475945551',index_col=0)
 
-#df_spt=pd.read_csv('https://raw.githubusercontent.com/zkbruton/csv-files/master/df_spt.csv',index_col=0)
+df_spt=pd.read_csv('https://raw.githubusercontent.com/zkbruton/csv-files/master/df_spt.csv',index_col=0)
 repair_data=pd.read_csv('https://raw.githubusercontent.com/zkbruton/csv-files/master/repair_data.csv',index_col=0)
 repair_data_copy=pd.read_csv('https://raw.githubusercontent.com/zkbruton/csv-files/master/repair_data_copy.csv',index_col=0)
 nb_data=pd.read_csv('https://raw.githubusercontent.com/zkbruton/csv-files/master/nb_data.csv',index_col=0)
